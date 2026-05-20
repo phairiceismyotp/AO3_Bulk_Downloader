@@ -12,8 +12,11 @@ Reducing this delay is not recommended unless you understand the risk.
 
 ## Screenshots
 
-Screenshots use public-facing AO3 page structure or fictional demo data for display purposes only. They should not be treated as endorsement by AO3 or by any work creator.
-![AO3 Bulk Downloader Bookmarklet UI](assets/ao3_bulk_downloader_screenshot.png)
+Screenshots use fictional demo data for display purposes only. They do not imply endorsement by AO3, OTW, or any work creator.
+
+<p align="center">
+  <img src="assets/ao3_bulk_downloader_screenshot.png" alt="AO3 Bulk Downloader Bookmarklet UI" width="700">
+</p>
 
 ## Features
 
