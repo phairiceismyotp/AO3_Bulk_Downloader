@@ -30,7 +30,7 @@ No screenshot assets are included yet.
 
 ## Files
 
-- `AO3BulkDownloader.readable.js` - readable bookmarklet source.
+- `AO3BulkDownloader.js` - readable bookmarklet source.
 - `scripts/build-bookmarklet.js` - dependency-free build script.
 - `dist/AO3BulkDownloader.bookmarklet.txt` - generated raw bookmarklet.
 - `dist/AO3BulkDownloader.bookmarklet.encoded.txt` - generated encoded bookmarklet.
@@ -96,7 +96,7 @@ Your browser may ask for permission to allow multiple downloads from AO3.
 
 ## Configuration
 
-The main configuration values are inside `AO3BulkDownloader.readable.js`.
+The main configuration values are inside `AO3BulkDownloader.js`.
 
 - `QUEUE_DELAY`: Delay between queued downloads.
 - `LINK_CLEANUP_DELAY`: Time before temporary download links are removed from the page.
