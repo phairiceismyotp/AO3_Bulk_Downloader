@@ -123,7 +123,6 @@ Before installing, users are encouraged to review the readable source code and b
 - Paginated AO3 pages must be handled page by page.
 - Download filenames are ultimately controlled by AO3 and the browser.
 - Browser multiple-download protection may require user approval.
-- This project is not a replacement for AO3's official work-page download buttons.
 
 ## Acknowledgements
 
