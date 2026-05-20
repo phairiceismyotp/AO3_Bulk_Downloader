@@ -4,7 +4,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
-const DEFAULT_SOURCE = "AO3BulkDownloader.readable.js";
+const DEFAULT_SOURCE = "AO3BulkDownloader.js";
 const DEFAULT_OUTPUT = path.join("dist", "AO3BulkDownloader.bookmarklet.txt");
 const JS_PREFIX = "javascript:";
 
