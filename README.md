@@ -82,7 +82,7 @@ The raw bookmarklet is easier to inspect. The encoded bookmarklet is more URL-sa
 ## Installation
 
 1. Download the full repository as a ZIP file from GitHub, then extract it.
-2. Review `AO3BulkDownloader.readable.js`.
+2. Review `AO3BulkDownloader.js`.
 3. Use the provided `dist/AO3BulkDownloader.bookmarklet.txt`, or install Node.js and run `npm run build` in the extracted project folder to generate it yourself.
 4. Press `Ctrl + Shift + B` to show the browser bookmarks bar.
 5. Right-click the bookmarks bar, choose `Add page...`, then name it something clear, such as `AO3 Bulk Downloader`.
