@@ -41,7 +41,7 @@ No screenshot assets are included yet.
 
 ## How it works
 
-`AO3BulkDownloader.readable.js` runs on AO3 series and bookmarks pages.
+`AO3BulkDownloader.js` runs on AO3 series and bookmarks pages.
 
 It reads the works already present in the current page HTML, extracts each work ID and title, builds AO3 download URLs, and opens each selected download through a temporary hidden link.
 
@@ -53,7 +53,7 @@ The bookmarklet does not download works through a third-party service. It only a
 
 ## Supported pages
 
-- AO3 series pages such as `/series/12345`
+- AO3 series pages such as `/series/12345678`
 - AO3 bookmarks pages such as `/users/name/bookmarks`
 
 Individual AO3 work pages already include official download buttons, so this bookmarklet is intended for pages where AO3 does not provide bulk download controls.
@@ -81,15 +81,16 @@ The raw bookmarklet is easier to inspect. The encoded bookmarklet is more URL-sa
 
 ## Installation
 
-1. Review `AO3BulkDownloader.readable.js`.
-2. Use the provided `dist/AO3BulkDownloader.bookmarklet.txt`, or install Node.js and run `npm run build` to generate it yourself.
-3. Press `Ctrl + Shift + B` to show the browser bookmarks bar.
-4. Right-click the bookmarks bar, choose `Add page...`, then name it something clear, such as `AO3 Bulk Downloader`.
-5. Paste the contents of one generated `*.bookmarklet.txt` file into the bookmark URL field.
-6. Open an AO3 series or bookmarks page.
-7. Click the bookmarklet.
-8. Select works and format.
-9. Click `Download Selected`.
+1. Download the full repository as a ZIP file from GitHub, then extract it.
+2. Review `AO3BulkDownloader.readable.js`.
+3. Use the provided `dist/AO3BulkDownloader.bookmarklet.txt`, or install Node.js and run `npm run build` in the extracted project folder to generate it yourself.
+4. Press `Ctrl + Shift + B` to show the browser bookmarks bar.
+5. Right-click the bookmarks bar, choose `Add page...`, then name it something clear, such as `AO3 Bulk Downloader`.
+6. Paste the contents of one `*.bookmarklet.txt` file into the bookmark URL field.
+7. Open an AO3 series or bookmarks page.
+8. Click the bookmarklet.
+9. Select works and format.
+10. Click `Download Selected`.
 
 Your browser may ask for permission to allow multiple downloads from AO3.
 
