@@ -2,7 +2,7 @@
 
 AO3 Bulk Downloader Bookmarklet is designed to run in the user's own browser on Archive of Our Own pages.
 
-## Data Handling
+## Data handling
 
 - The bookmarklet reads the current AO3 series or bookmarks page DOM to find downloadable works.
 - It creates AO3 download URLs from visible work links and opens those URLs in the browser.
@@ -14,7 +14,7 @@ AO3 Bulk Downloader Bookmarklet is designed to run in the user's own browser on 
 
 When a download URL is opened, the browser may naturally send AO3 session cookies to AO3, the same way it does when using AO3's own download button.
 
-## User Responsibility
+## User responsibility
 
 Users are responsible for reviewing the source code, rebuilding the bookmarklet if desired, and deciding whether to use the generated bookmarklet file.
 
