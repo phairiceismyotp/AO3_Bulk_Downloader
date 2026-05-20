@@ -2,7 +2,7 @@
 
 This guide helps users perform an independent, low-noise review before using or rebuilding the bookmarklet.
 
-## Audit Scope
+## Audit scope
 
 Review these source files first:
 
@@ -13,7 +13,7 @@ After reviewing the source and build script, you may compare the generated files
 
 Do not upload private AO3 account data, private bookmarks, downloaded works, browser cookies, or personal browsing history into an AI tool.
 
-## Expected Runtime Behavior
+## Expected runtime behavior
 
 The runtime bookmarklet is expected to:
 
@@ -28,7 +28,7 @@ The runtime bookmarklet is expected to:
 
 Do not treat these behaviors as vulnerabilities by themselves. They are normal for this bookmarklet.
 
-## Expected Build Behavior
+## Expected build behavior
 
 The build script is expected to:
 
@@ -41,7 +41,7 @@ The build script is expected to:
 
 The build script should not contact the network or install packages.
 
-## Suggested AI Prompt
+## Suggested AI prompt
 
 ```text
 Please audit these files as a security, privacy, and transparency review before I use this AO3 bookmarklet:
@@ -74,7 +74,7 @@ Please:
 8. Do not rewrite the code unless I ask for a patch.
 ```
 
-## Findings That Should Matter
+## Findings that should matter
 
 Treat these as real concerns if found:
 
@@ -86,7 +86,7 @@ Treat these as real concerns if found:
 - Runtime modifies AO3 bookmarks, account settings, forms, comments, works, or user profile data.
 - Build script contacts the network, installs packages, executes generated code beyond syntax validation, or writes outside the intended output path.
 
-## Expected Safe Shape
+## Expected safe shape
 
 - Runtime download targets should be AO3 URLs under `https://archiveofourown.org/downloads/`.
 - Runtime should only read the current page DOM and create temporary UI/download elements.
@@ -95,6 +95,6 @@ Treat these as real concerns if found:
 - `window.__ao3BulkDownloader` should contain only temporary queue state.
 - `new Function` and filesystem writes should appear only in `scripts/build-bookmarklet.js`.
 
-## Important Limit
+## Important limit
 
 AI review is helpful, but it is not a formal security audit. If you modify the code, review the diff again before rebuilding and using the bookmarklet.
