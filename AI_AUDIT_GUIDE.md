@@ -6,7 +6,7 @@ This guide helps users perform an independent, low-noise review before using or 
 
 Review these source files first:
 
-- `AO3BulkDownloader.readable.js`
+- `AO3BulkDownloader.js`
 - `scripts/build-bookmarklet.js`
 
 After reviewing the source and build script, you may compare the generated files in `dist/` against a fresh local build.
@@ -35,7 +35,7 @@ The build script is expected to:
 - Run locally with Node.js.
 - Use `fs`, `path`, `process.argv`, `console`, and `process.exitCode`.
 - Use `new Function` only to validate JavaScript syntax during the local build.
-- Read the readable source file.
+- Read the source file.
 - Minify the runtime source.
 - Write raw and encoded bookmarklet files into `dist/`.
 
@@ -47,7 +47,7 @@ The build script should not contact the network or install packages.
 Please audit these files as a security, privacy, and transparency review before I use this AO3 bookmarklet:
 
 Files:
-- AO3BulkDownloader.readable.js
+- AO3BulkDownloader.js
 - scripts/build-bookmarklet.js
 
 Context:
