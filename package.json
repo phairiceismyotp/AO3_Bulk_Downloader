@@ -1,0 +1,10 @@
+{
+  "name": "ao3-bulk-downloader-bookmarklet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build script for the AO3 bulk downloader bookmarklet.",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node scripts/build-bookmarklet.js"
+  }
+}
