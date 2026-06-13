@@ -4,6 +4,10 @@ AO3 Bulk Downloader Bookmarklet is a small browser bookmarklet project for downl
 
 The project is unofficial and is not affiliated with Archive of Our Own, the Organization for Transformative Works, or any browser vendor.
 
+## Video Tutorial
+
+[Watch the step-by-step installation guide on YouTube](https://www.youtube.com/watch?v=JMhbrHCpe68)
+
 ## Important note
 
 The bookmarklet intentionally waits `10` seconds between queued downloads. This delay helps avoid sending too many AO3 download requests at once, which may look like suspicious traffic and trigger AO3's Cloudflare protection.
