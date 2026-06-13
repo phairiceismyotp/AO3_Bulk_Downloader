@@ -13,6 +13,8 @@ The tutorial uses real AO3 data for an objective demonstration:
 - Series: [The Death and the Pale Dawn](https://archiveofourown.org/series/4966846)
 - Author: [VanToRia](https://archiveofourown.org/users/VanToRia/pseuds/VanToRia)
 
+The referenced work and author profile belong to their respective AO3 creator.
+
 ## Important note
 
 The bookmarklet intentionally waits `10` seconds between queued downloads. This delay helps avoid sending too many AO3 download requests at once, which may look like suspicious traffic and trigger AO3's Cloudflare protection.
