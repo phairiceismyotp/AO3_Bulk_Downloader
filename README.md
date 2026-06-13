@@ -8,6 +8,11 @@ The project is unofficial and is not affiliated with Archive of Our Own, the Org
 
 [Watch the step-by-step installation guide on YouTube](https://www.youtube.com/watch?v=JMhbrHCpe68)
 
+The tutorial uses real AO3 data for an objective demonstration:
+
+- Series: [The Death and the Pale Dawn](https://archiveofourown.org/series/4966846)
+- Author: [VanToRia](https://archiveofourown.org/users/VanToRia/pseuds/VanToRia)
+
 ## Important note
 
 The bookmarklet intentionally waits `10` seconds between queued downloads. This delay helps avoid sending too many AO3 download requests at once, which may look like suspicious traffic and trigger AO3's Cloudflare protection.
