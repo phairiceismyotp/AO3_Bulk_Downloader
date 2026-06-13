@@ -10,7 +10,7 @@
   const DOWNLOAD_TEXT = "Download Selected";
   const FORMATS = ["epub", "azw3", "mobi", "pdf", "html"];
   const CONFIG = {
-    font: "Cambria, serif",
+    font: "Cambria, sans-serif",
     creditUrl: "https://github.com/phairiceismyotp",
   };
 
