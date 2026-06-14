@@ -8,6 +8,8 @@ The project is unofficial and is not affiliated with Archive of Our Own, the Org
   <img src="assets/ao3_downloader.gif" alt="AO3 Bulk Downloader" width="720">
 </p>
 
+The referenced work, author profile, and series belong to their respective AO3 creator (See more in the `Video tutorial` section).
+
 ## Video tutorial
 
 [Watch the step-by-step installation guide on YouTube](https://www.youtube.com/watch?v=JMhbrHCpe68)
