@@ -10,10 +10,13 @@ The project is unofficial and is not affiliated with Archive of Our Own, the Org
 
 The tutorial uses real AO3 data for an objective demonstration:
 
+- Work
+  + Work 1: [And thus I choose you, my only universe](https://archiveofourown.org/works/67745956)
+  + Work 2: [From You, A Whisper of Hope](https://archiveofourown.org/works/68383601/chapters/176976881)
 - Series: [The Death and the Pale Dawn](https://archiveofourown.org/series/4966846)
 - Author: [VanToRia](https://archiveofourown.org/users/VanToRia/pseuds/VanToRia)
 
-The referenced work and author profile belong to their respective AO3 creator.
+The referenced work, author profile, and series belong to their respective AO3 creator.
 
 ## Important note
 
