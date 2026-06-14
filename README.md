@@ -4,6 +4,10 @@ AO3 Bulk Downloader Bookmarklet is a small browser bookmarklet project for downl
 
 The project is unofficial and is not affiliated with Archive of Our Own, the Organization for Transformative Works, or any browser vendor.
 
+<p align="center">
+  <img src="assets/ao3_downloader.gif" alt="AO3 Bulk Downloader" width="720">
+</p>
+
 ## Video tutorial
 
 [Watch the step-by-step installation guide on YouTube](https://www.youtube.com/watch?v=JMhbrHCpe68)
