@@ -149,7 +149,7 @@ Before installing, users are encouraged to review the readable source code and b
 
 ## Acknowledgements
 
-This project was inspired by PhaiRice, the Phainon x Castorice pairing from Honkai: Star Rail (miHoYo). They are the reason behind the name `phairiceismyotp` and the blue-purple alternating theme in the Tampermonkey interface.
+This project was inspired by PhaiRice, the Phainon x Castorice pairing from Honkai: Star Rail (miHoYo). They are the reason behind the name `phairiceismyotp` and the blue-purple alternating theme.
 
 The bookmarklet concept was also inspired by Flamebyrd's [AO3 Ebook Download Helper / AO3 Downloader](https://random.fangirling.net/scripts/ao3_downloader/).
 
